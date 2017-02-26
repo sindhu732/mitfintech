@@ -38,6 +38,24 @@ angular.module('app.routes', [])
     controller: 'redeemCtrl'
   })
 
+  .state('inbox', {
+    url: '/inbox',
+    templateUrl: 'templates/inbox.html',
+    controller: 'inboxCtrl'
+  })
+
+  .state('history', {
+    url: '/history',
+    templateUrl: 'templates/history.html',
+    controller: 'historyCtrl'
+  })
+
+  .state('settings', {
+    url: '/settings',
+    templateUrl: 'templates/settings.html',
+    controller: 'settingsCtrl'
+  })
+
   .state('tabsController.inbox', {
     url: '/inbox',
     views: {
