@@ -14,10 +14,22 @@ angular.module('app.routes', [])
     controller: 'goalsCtrl'
   })
 
+  .state('goals2', {
+    url: '/goals2',
+    templateUrl: 'templates/goals2.html',
+    controller: 'goals2Ctrl'
+  })
+
   .state('healthdata', {
     url: '/healthdata',
     templateUrl: 'templates/healthdata.html',
     controller: 'healthdataCtrl'
+  })
+
+  .state('healthdata2', {
+    url: '/healthdata2',
+    templateUrl: 'templates/healthdata2.html',
+    controller: 'healthdata2Ctrl'
   })
 
   .state('redeem', {
