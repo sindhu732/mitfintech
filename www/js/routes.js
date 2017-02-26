@@ -20,6 +20,12 @@ angular.module('app.routes', [])
     controller: 'healthdataCtrl'
   })
 
+  .state('redeem', {
+    url: '/redeem',
+    templateUrl: 'templates/redeem.html',
+    controller: 'redeemCtrl'
+  })
+
   .state('tabsController.inbox', {
     url: '/inbox',
     views: {
